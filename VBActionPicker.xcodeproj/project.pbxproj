@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2002841EDC827000CD74D6 /* VBActionPickerLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2002821EDC827000CD74D6 /* VBActionPickerLocationViewController.swift */; };
+		7D2002851EDC827000CD74D6 /* VBActionPickerLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2002831EDC827000CD74D6 /* VBActionPickerLocationViewController.xib */; };
 		7D5EFA2D1EAFF6300030B78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA2C1EAFF6300030B78F /* AppDelegate.swift */; };
 		7D5EFA2F1EAFF6300030B78F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA2E1EAFF6300030B78F /* ViewController.swift */; };
 		7D5EFA321EAFF6300030B78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5EFA301EAFF6300030B78F /* Main.storyboard */; };
 		7D5EFA341EAFF6300030B78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5EFA331EAFF6300030B78F /* Assets.xcassets */; };
 		7D5EFA371EAFF6300030B78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5EFA351EAFF6300030B78F /* LaunchScreen.storyboard */; };
+		7D5EFA401EAFF6810030B78F /* VBActionPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA3F1EAFF6810030B78F /* VBActionPicker.swift */; };
+		7D5EFA421EB012000030B78F /* VBActionPickerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA411EB012000030B78F /* VBActionPickerObject.swift */; };
+		7D5EFA441EB21A5D0030B78F /* VBAssetsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA431EB21A5D0030B78F /* VBAssetsManager.swift */; };
+		7D5EFA461EB21B3D0030B78F /* VBAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA451EB21B3D0030B78F /* VBAsset.swift */; };
+		7D5EFA481EB22A8F0030B78F /* VBAssetsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA471EB22A8F0030B78F /* VBAssetsCollectionViewController.swift */; };
+		7D5EFA4B1EB2331E0030B78F /* VBAseetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5EFA491EB2331E0030B78F /* VBAseetsCell.swift */; };
+		7D5EFA4C1EB2331E0030B78F /* VBAseetsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5EFA4A1EB2331E0030B78F /* VBAseetsCell.xib */; };
+		7D6E02811EE8EDA7004B4687 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6E02801EE8EDA7004B4687 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D2002821EDC827000CD74D6 /* VBActionPickerLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBActionPickerLocationViewController.swift; sourceTree = "<group>"; };
+		7D2002831EDC827000CD74D6 /* VBActionPickerLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBActionPickerLocationViewController.xib; sourceTree = "<group>"; };
 		7D5EFA291EAFF6300030B78F /* VBActionPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBActionPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5EFA2C1EAFF6300030B78F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5EFA2E1EAFF6300030B78F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,15 @@
 		7D5EFA331EAFF6300030B78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D5EFA361EAFF6300030B78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D5EFA381EAFF6300030B78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D5EFA3F1EAFF6810030B78F /* VBActionPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBActionPicker.swift; sourceTree = "<group>"; };
+		7D5EFA411EB012000030B78F /* VBActionPickerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBActionPickerObject.swift; sourceTree = "<group>"; };
+		7D5EFA431EB21A5D0030B78F /* VBAssetsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBAssetsManager.swift; sourceTree = "<group>"; };
+		7D5EFA451EB21B3D0030B78F /* VBAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBAsset.swift; sourceTree = "<group>"; };
+		7D5EFA471EB22A8F0030B78F /* VBAssetsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBAssetsCollectionViewController.swift; sourceTree = "<group>"; };
+		7D5EFA491EB2331E0030B78F /* VBAseetsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VBAseetsCell.swift; sourceTree = "<group>"; };
+		7D5EFA4A1EB2331E0030B78F /* VBAseetsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VBAseetsCell.xib; sourceTree = "<group>"; };
+		7D6E02801EE8EDA7004B4687 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7D6E02821EE8EF20004B4687 /* VBActionPicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VBActionPicker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6E02811EE8EDA7004B4687 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D050CB91EE120C7007A306B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D6E02801EE8EDA7004B4687 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D2002811EDC824A00CD74D6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				7D2002821EDC827000CD74D6 /* VBActionPickerLocationViewController.swift */,
+				7D2002831EDC827000CD74D6 /* VBActionPickerLocationViewController.xib */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
 		7D5EFA201EAFF6300030B78F = {
 			isa = PBXGroup;
 			children = (
 				7D5EFA2B1EAFF6300030B78F /* VBActionPicker */,
 				7D5EFA2A1EAFF6300030B78F /* Products */,
+				7D050CB91EE120C7007A306B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +94,8 @@
 		7D5EFA2B1EAFF6300030B78F /* VBActionPicker */ = {
 			isa = PBXGroup;
 			children = (
+				7D6E02821EE8EF20004B4687 /* VBActionPicker.entitlements */,
+				7D5EFA3E1EAFF65E0030B78F /* Picker */,
 				7D5EFA2C1EAFF6300030B78F /* AppDelegate.swift */,
 				7D5EFA2E1EAFF6300030B78F /* ViewController.swift */,
 				7D5EFA301EAFF6300030B78F /* Main.storyboard */,
@@ -62,6 +104,21 @@
 				7D5EFA381EAFF6300030B78F /* Info.plist */,
 			);
 			path = VBActionPicker;
+			sourceTree = "<group>";
+		};
+		7D5EFA3E1EAFF65E0030B78F /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				7D2002811EDC824A00CD74D6 /* Actions */,
+				7D5EFA3F1EAFF6810030B78F /* VBActionPicker.swift */,
+				7D5EFA411EB012000030B78F /* VBActionPickerObject.swift */,
+				7D5EFA431EB21A5D0030B78F /* VBAssetsManager.swift */,
+				7D5EFA451EB21B3D0030B78F /* VBAsset.swift */,
+				7D5EFA471EB22A8F0030B78F /* VBAssetsCollectionViewController.swift */,
+				7D5EFA491EB2331E0030B78F /* VBAseetsCell.swift */,
+				7D5EFA4A1EB2331E0030B78F /* VBAseetsCell.xib */,
+			);
+			name = Picker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,8 +153,22 @@
 				TargetAttributes = {
 					7D5EFA281EAFF6300030B78F = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = KW8XLSK27E;
+						DevelopmentTeam = LEJ77T94BB;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,6 +197,8 @@
 			files = (
 				7D5EFA371EAFF6300030B78F /* LaunchScreen.storyboard in Resources */,
 				7D5EFA341EAFF6300030B78F /* Assets.xcassets in Resources */,
+				7D5EFA4C1EB2331E0030B78F /* VBAseetsCell.xib in Resources */,
+				7D2002851EDC827000CD74D6 /* VBActionPickerLocationViewController.xib in Resources */,
 				7D5EFA321EAFF6300030B78F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +210,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D5EFA441EB21A5D0030B78F /* VBAssetsManager.swift in Sources */,
+				7D5EFA421EB012000030B78F /* VBActionPickerObject.swift in Sources */,
+				7D5EFA4B1EB2331E0030B78F /* VBAseetsCell.swift in Sources */,
+				7D5EFA461EB21B3D0030B78F /* VBAsset.swift in Sources */,
+				7D5EFA481EB22A8F0030B78F /* VBAssetsCollectionViewController.swift in Sources */,
+				7D5EFA401EAFF6810030B78F /* VBActionPicker.swift in Sources */,
 				7D5EFA2F1EAFF6300030B78F /* ViewController.swift in Sources */,
 				7D5EFA2D1EAFF6300030B78F /* AppDelegate.swift in Sources */,
+				7D2002841EDC827000CD74D6 /* VBActionPickerLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +341,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KW8XLSK27E;
+				CODE_SIGN_ENTITLEMENTS = VBActionPicker/VBActionPicker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LEJ77T94BB;
 				INFOPLIST_FILE = VBActionPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.VBActionPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.VBActionPickerNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +358,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KW8XLSK27E;
+				CODE_SIGN_ENTITLEMENTS = VBActionPicker/VBActionPicker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LEJ77T94BB;
 				INFOPLIST_FILE = VBActionPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.VBActionPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.VBActionPickerNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +390,7 @@
 				7D5EFA3D1EAFF6300030B78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

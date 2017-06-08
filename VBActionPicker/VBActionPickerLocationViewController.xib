@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VBActionPickerLocationViewController" customModule="VBActionPicker" customModuleProvider="target">
+            <connections>
+                <outlet property="getButton" destination="Baa-lJ-apY" id="jTV-NG-bET"/>
+                <outlet property="mapView" destination="Qqc-ou-eRL" id="Ykd-ne-5iX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Qqc-ou-eRL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </mapView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdn-aN-7H6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUf-EU-W9Y">
+                            <rect key="frame" x="16" y="27" width="48" height="30"/>
+                            <state key="normal" title="Cancel"/>
+                            <connections>
+                                <action selector="cancelTapped:" destination="-1" eventType="touchUpInside" id="Ipf-ge-Qxr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="6aY-XU-cHm"/>
+                        <constraint firstItem="UUf-EU-W9Y" firstAttribute="centerY" secondItem="hdn-aN-7H6" secondAttribute="centerY" constant="10" id="8JD-hF-hOy"/>
+                        <constraint firstItem="UUf-EU-W9Y" firstAttribute="leading" secondItem="hdn-aN-7H6" secondAttribute="leading" constant="16" id="Aux-DW-ZA4"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Baa-lJ-apY">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="U7J-Yn-xPB"/>
+                    </constraints>
+                    <state key="normal" title="Get current location"/>
+                    <connections>
+                        <action selector="getTapped:" destination="-1" eventType="touchUpInside" id="Gfg-gn-p7l"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Qqc-ou-eRL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A2l-sL-fr5"/>
+                <constraint firstItem="hdn-aN-7H6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cfo-DQ-MXj"/>
+                <constraint firstAttribute="bottom" secondItem="Qqc-ou-eRL" secondAttribute="bottom" id="Qv8-DH-1yP"/>
+                <constraint firstItem="Baa-lJ-apY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Sl6-NP-6MT"/>
+                <constraint firstAttribute="bottom" secondItem="Baa-lJ-apY" secondAttribute="bottom" id="Zaf-cb-jPe"/>
+                <constraint firstAttribute="trailing" secondItem="hdn-aN-7H6" secondAttribute="trailing" id="Zfg-3T-JoP"/>
+                <constraint firstAttribute="trailing" secondItem="Baa-lJ-apY" secondAttribute="trailing" id="eRG-Rl-X5I"/>
+                <constraint firstAttribute="trailing" secondItem="Qqc-ou-eRL" secondAttribute="trailing" id="uEL-vv-TUv"/>
+                <constraint firstItem="Qqc-ou-eRL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uUa-WQ-tO5"/>
+                <constraint firstItem="hdn-aN-7H6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xCQ-2d-9kx"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
